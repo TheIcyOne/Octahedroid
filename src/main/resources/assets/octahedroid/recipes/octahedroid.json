@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "opo",
+        "pcp",
+        "opo"
+    ],
+    "key":
+    {
+        "o":
+        {
+            "item": "minecraft:obsidian"
+        },
+		"c":
+		{
+			"item": "minecraft:ender_chest"
+		},
+		"p":
+		{
+			"item": "minecraft:ender_eye"
+		}
+    },
+    "result":
+    {
+        "item": "octahedroid:octahedroid",
+		"count": 2
+    }
+}

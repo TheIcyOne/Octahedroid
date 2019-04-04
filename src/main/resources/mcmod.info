@@ -1,0 +1,16 @@
+[
+{
+  "modid": "octahedroid",
+  "name": "Octahedroid",
+  "description": "This isn't quantum tunnelling.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["The_Icy_One"],
+  "credits": "The Thermal Mods team for the original Tesseract, which may have somewhat inspired this.",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

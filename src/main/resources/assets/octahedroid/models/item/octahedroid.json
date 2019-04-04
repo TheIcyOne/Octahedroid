@@ -1,0 +1,8 @@
+{
+	"textures": {
+		"centre": "minecraft:environment/end_sky",
+		"supports": "minecraft:blocks/obsidian"
+	},
+	"parent" : "octahedroid:block/octahedroid"
+
+}

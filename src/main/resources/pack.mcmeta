@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "Tesseract resources",
+        "pack_format": 3,
+        "_comment": "So apparently we can't just render things in 4 dimensions. Spoilsports."
+    }
+}
