@@ -76,13 +76,13 @@ public class Octahedroid {
 	
 	@SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
-		octa_item.setTileEntityItemStackRenderer(new RenderItemOctahedroid());
+//		octa_item.setTileEntityItemStackRenderer(new RenderItemOctahedroid());
 		event.getRegistry().register(octa_item);
 	}
 	
 	@SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
-		ForgeHooksClient.registerTESRItemStack(Octahedroid.octa_item, 0, TileOctahedroid.class);
+//		ForgeHooksClient.registerTESRItemStack(Octahedroid.octa_item, 0, TileOctahedroid.class);
 		ModelLoader.setCustomModelResourceLocation(octa_item, 0, new ModelResourceLocation(MODID + ":octahedroid", "inventory"));
 	}
 
