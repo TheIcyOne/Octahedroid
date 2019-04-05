@@ -1,5 +1,6 @@
 package com.headfishindustries.octahedroid.block;
 
+import com.headfishindustries.octahedroid.OctaConfig;
 import com.headfishindustries.octahedroid.Octahedroid;
 import com.headfishindustries.octahedroid.net.MessageUpdateChannel;
 import com.headfishindustries.octahedroid.tile.TileOctahedroid;
@@ -54,7 +55,7 @@ public class BlockOctahedroid extends Block implements ITileEntityProvider{
 	 
 	 @Override
 	 public EnumBlockRenderType getRenderType(IBlockState s) {
-		 return EnumBlockRenderType.ENTITYBLOCK_ANIMATED;
+		 return OctaConfig.client.TESRact ? EnumBlockRenderType.ENTITYBLOCK_ANIMATED : EnumBlockRenderType.MODEL;
 	 }
 
 

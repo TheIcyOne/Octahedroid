@@ -1,5 +1,6 @@
 package com.headfishindustries.octahedroid.proxy;
 
+import com.headfishindustries.octahedroid.OctaConfig;
 import com.headfishindustries.octahedroid.Octahedroid;
 import com.headfishindustries.octahedroid.client.render.RenderOctahedroid;
 import com.headfishindustries.octahedroid.tile.TileOctahedroid;
@@ -14,9 +15,9 @@ public class ClientProxy extends CommonProxy{
 	@Override
 	public void preInit(FMLPreInitializationEvent e) {
 		//stfu forge this is fine
-		
-		
-		ClientRegistry.bindTileEntitySpecialRenderer(TileOctahedroid.class, new RenderOctahedroid());
+		if (OctaConfig.client.TESRact) {
+			ClientRegistry.bindTileEntitySpecialRenderer(TileOctahedroid.class, new RenderOctahedroid());
+		}
 	}
 
 }
