@@ -33,7 +33,7 @@ import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 
-@Mod(modid = Octahedroid.MODID, version = Octahedroid.VERSION, name = Octahedroid.NAME)
+@Mod(modid = Octahedroid.MODID, version = Octahedroid.VERSION, name = Octahedroid.NAME, acceptedMinecraftVersions="[1.12, 1.13]")
 public class Octahedroid {
 
 	public static final String MODID = "octahedroid";
