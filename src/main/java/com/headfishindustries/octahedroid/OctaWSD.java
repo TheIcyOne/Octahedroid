@@ -93,7 +93,7 @@ public class OctaWSD extends WorldSavedData{
 		}
 		
 		public Channel() {
-			this(10, 10000, 10000);
+			this(10, OctaConfig.balance.maxThroughputFluid, OctaConfig.balance.maxThroughputEnergy);
 		}
 
 		/** Item Stuff **/
